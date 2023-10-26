@@ -26,28 +26,32 @@
 
 body{
 
-    font-family: "Coconat-Regular";
+    font-family: "Coconat-Bold";
     font-size: 24px;
     line-height: 1.25;
 
-    background-color:#fff;
     color: #28282E;
 }
 
 h1{
     color: #5137bb;
-    font-size: 5.6rem;
+    font-size: 5.4rem;
     font-family: "Coconat-Bold";
 }
 
 /* UNDER CONSTRUCTION STYLE */
 
 section{
-    margin: 10%;
+    margin: 5%;
+}
+
+.main-container{
+    text-align: center;
+
 }
 
 img{
-    width: 100%;
+    border-radius: 50%;
 }
 
 
@@ -84,12 +88,16 @@ img{
 
 @media screen and (max-width: 1024px){
 
+    section {
+        margin-top: 30%;
+    }
+
     h1{
         font-size: 20px;
     }
     
-    img{
-        width: 30%;
+    img {
+        width: 60%;
     }
 };
 
