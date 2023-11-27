@@ -188,4 +188,8 @@ img.download_icon{
     img.download_icon{
         width: 30%;
     }
+
+    .footer-container{
+        margin-top: 100%;
+    }
 }
