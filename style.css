@@ -174,10 +174,18 @@ img.download_icon{
     }
 
     .subtitle-header{
-        margin-top: 5%;
+        margin-top: 18%;
     }
 
     .logo-img{
         width: 80%;
+    }
+
+    section div.col-right{
+        margin-top: 0;
+    }
+
+    img.download_icon{
+        width: 30%;
     }
 }
