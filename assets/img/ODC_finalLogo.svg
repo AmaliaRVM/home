@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="151.8091mm"
+   height="83.655373mm"
+   viewBox="0 0 151.8091 83.655373"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="ODC_finalLogo.svg"
+   inkscape:export-filename="/home/lenovo/Documents/graphic-projects/Inkscape/odc_deadline_extended.png"
+   inkscape:export-xdpi="238"
+   inkscape:export-ydpi="238"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="-10.332246"
+     inkscape:cy="377.67711"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1848"
+     inkscape:window-height="1016"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     showborder="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-29.095451,-106.67232)">
+    <rect
+       style="opacity:1;fill:#344796;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect1554"
+       width="151.8091"
+       height="83.655373"
+       x="29.095451"
+       y="106.67232"
+       rx="0.97170752"
+       inkscape:export-xdpi="238"
+       inkscape:export-ydpi="238" />
+    <g
+       id="layer1-9"
+       inkscape:label="Layer 1"
+       transform="matrix(1.2761164,0,0,1.2308997,-26.778206,20.316999)"
+       inkscape:export-xdpi="238.49124"
+       inkscape:export-ydpi="238.49124">
+      <ellipse
+         ry="18.898808"
+         rx="19.465773"
+         cy="104.13765"
+         cx="73.01236"
+         id="path817"
+         style="opacity:1;fill:#64ab8a;fill-opacity:1;stroke-width:0.1851881" />
+      <circle
+         r="9.6383924"
+         cy="104.25979"
+         cx="73.01236"
+         id="path819"
+         style="opacity:1;fill:#c9e0ce;fill-opacity:1;stroke-width:0.26458332" />
+      <path
+         inkscape:connector-curvature="0"
+         id="ellipse821"
+         d="m 99.470544,85.26645 a 19.465772,18.898807 0 0 0 -0.377756,0.01292 v 37.76617 a 19.465772,18.898807 0 0 0 0.377756,0.0186 19.465772,18.898807 0 0 0 19.465996,-18.89858 19.465772,18.898807 0 0 0 -19.465996,-18.89911 z"
+         style="opacity:1;fill:#ca484e;fill-opacity:1;stroke-width:0.1851881" />
+      <path
+         inkscape:connector-curvature="0"
+         id="circle823"
+         d="m 99.470544,94.149113 a 9.6383924,9.6383924 0 0 0 -0.471807,0.01654 l 0.09353,19.241197 a 9.6383924,9.6383924 0 0 0 0.378272,0.0191 9.6383924,9.6383924 0 0 0 9.638691,-9.63868 9.6383924,9.6383924 0 0 0 -9.638691,-9.638174 z"
+         style="opacity:0.61000001;fill:#b0cc07;fill-opacity:1;stroke-width:0.26458332" />
+      <path
+         inkscape:connector-curvature="0"
+         id="ellipse834"
+         d="m 143.33195,85.211158 a 19.465772,18.898807 0 0 0 -19.466,18.899102 19.465772,18.898807 0 0 0 19.466,18.89859 19.465772,18.898807 0 0 0 8.3566,-1.84898 V 87.07616 a 19.465772,18.898807 0 0 0 -8.3566,-1.865002 z"
+         style="opacity:1;fill:#e0a6a1;fill-opacity:0.94117647;stroke-width:0.1851881" />
+      <circle
+         style="opacity:1;fill:#344796;fill-opacity:1;stroke-width:0.26458332"
+         id="circle836"
+         cx="143.34509"
+         cy="103.75559"
+         r="9.6383924" />
+    </g>
+  </g>
+</svg>

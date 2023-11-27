@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: "Coconat-Regular";
     src: url("assets/font/Coconat/web/Coconat-Regular.woff2") format("woff2"),
         url("assets/font/Coconat/web/Coconat-Regular.woff") format("woff");
@@ -10,9 +10,21 @@
     src: url("assets/font/Coconat/web/Coconat-BoldExt.woff2") format("woff2"),
         url("assets/font/Coconat/web/Coconat-BoldExt.woff") format("woff"); 
         
-}
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;500;600;700&display=swap');
 
 /* GLOBAL */
+
+:root{
+    --text-color: #494848;
+    --name-header-color: #5239EE;
+    --title-header-color: #F59B14;
+    --subtitle-header-color: #00E7B0;
+}
 
 *{
     margin: 0;
@@ -26,79 +38,146 @@
 
 body{
 
-    font-family: "Coconat-Bold";
-    font-size: 24px;
+    font-family:'League Spartan', sans-serif;
+    font-size: 20px;
     line-height: 1.25;
 
-    color: #28282E;
+    color: var(--text-color);
 }
 
-h1{
-    color: #5137bb;
-    font-size: 5.4rem;
-    font-family: "Coconat-Bold";
+h1 {
+    color: var(--name-header-color);
+    font-size: 64px;
+    font-weight: 700;
 }
 
-/* UNDER CONSTRUCTION STYLE */
+h3{
+    color: var(--title-header-color);
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+h4{
+    color: var(--subtitle-header-color);
+    font-weight: 500;
+    margin-top: 8%;
+}
+
+p{
+    font-weight: 300;
+    
+}
+
+a{
+    text-decoration: none;
+    color: var(--subtitle-header-color);
+    display: block;
+
+}
+
+a:hover {
+    color: inherit;
+}
 
 section{
-    margin: 5%;
-}
-
-.main-container{
-    text-align: center;
-
-}
-
-img{
-    border-radius: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5%;
+    margin: 5% 0;
+    align-items: start;
+    text-align: justify;
 }
 
 
-.title{
-    color: #5239EE;
-    background-image: linear-gradient(
-        45deg,
-        #4936BF,
-        #e84a5f,
-        #5239EE,
-        #a6e4e7
-  
-    );
+/* Name Section */
 
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+#about{
+    color: var(--text-color);
+}
 
-    background-repeat: no-repeat;
-    background-size: 400%;
-    animation: bg-animation 250s infinite alternate;
+#contact{
+    color: var(--text-color);
+}
+
+/* Other section style */
+
+section div.col-left{
+    text-align: right;
+    position: sticky;
+    height: 80vh;
+    top: 0;
+}
+
+section.name-section{
+    margin-top: 15%;
     
 }
 
-@keyframes bg-animation {
-    0% { 
-        background-position: left; 
-    }
-    100% {
-        background-position: right; 
-    }
-
+section div.name-container{
+    border-style: none;
 }
 
-@media screen and (max-width: 1024px){
+.title-header{
+    border-bottom: 0.5rem solid #D7DBFF;
+}
 
-    section {
-        margin-top: 30%;
+div.img-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8%;
+
+    margin-top: 8%;
+    padding-top: 8%;
+}
+
+.logo-img{
+    width: 100%;
+}
+
+.description{
+    text-align: justify;
+    padding-top: 10px;
+}
+
+section div.col-right{
+    margin-top: 40%;
+}
+
+section div.col-right-tools{
+    margin-top: 10%;
+}
+
+img.download_icon{
+    width: 50%;
+}
+
+/* Media Query */
+
+@media (max-width: 800px) {
+    h4{
+        margin-top: 2%;
+    }
+    section{
+        grid-template-columns: 1fr;
+        gap: 0;
     }
 
-    h1{
-        font-size: 20px;
-    }
-    
-    img {
-        width: 60%;
-    }
-};
+    section div.col-left {
+        position: static;
+        height: auto;
 
+        text-align: left; 
+    }
 
+    section div.img-container{
+        grid-template-columns: 1fr;
+    }
+
+    .subtitle-header{
+        margin-top: 5%;
+    }
+
+    .logo-img{
+        width: 80%;
+    }
+}
