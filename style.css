@@ -189,6 +189,10 @@ img.download_icon{
         width: 30%;
     }
 
+    section.footer-container{
+        margin-top: 100%;
+    }
+
     .footer-container{
         margin-top: 100%;
     }
