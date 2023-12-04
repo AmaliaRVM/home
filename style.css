@@ -1,16 +1,3 @@
-/* @font-face {
-    font-family: "Coconat-Regular";
-    src: url("assets/font/Coconat/web/Coconat-Regular.woff2") format("woff2"),
-        url("assets/font/Coconat/web/Coconat-Regular.woff") format("woff");
-        
-}
-
-@font-face {
-    font-family: "Coconat-Bold";
-    src: url("assets/font/Coconat/web/Coconat-BoldExt.woff2") format("woff2"),
-        url("assets/font/Coconat/web/Coconat-BoldExt.woff") format("woff"); 
-        
-} */
 
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@600;700&display=swap');
@@ -25,7 +12,6 @@
     --title-header-color: #F59B14;
     --subtitle-header-color: #00E7B0;
 }
-
 *{
     margin: 0;
     padding: 0;
@@ -35,50 +21,46 @@
     vertical-align: baseline;    
     box-sizing: border-box;
 }
-
 body{
 
     font-family:'League Spartan', sans-serif;
-    font-size: 20px;
+    font-size: 24px;
     line-height: 1.25;
 
     color: var(--text-color);
 }
-
 h1 {
     color: var(--name-header-color);
-    font-size: 64px;
+    font-size: 72px;
     font-weight: 700;
 }
-
 h3{
     color: var(--title-header-color);
     font-weight: 600;
-    padding-top: 10px;
+    /* padding-top: 10px; */
+    font-size: 36px;
 }
-
 h4{
     color: var(--subtitle-header-color);
     font-weight: 500;
-    margin-top: 8%;
+    /* margin-top: 8%; */
+    font-size: 32px;
 }
-
 p{
     font-weight: 300;
     
 }
-
 a{
     text-decoration: none;
     color: var(--subtitle-header-color);
     display: block;
 
 }
-
 a:hover {
     color: inherit;
 }
 
+/* General style for all sections */
 section{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -88,40 +70,60 @@ section{
     text-align: justify;
 }
 
-
-/* Name Section */
-
-#about{
-    color: var(--text-color);
-}
-
-#contact{
-    color: var(--text-color);
-}
-
-/* Other section style */
+/* Section div col left and right */
 
 section div.col-left{
     text-align: right;
     position: sticky;
-    height: 80vh;
+    height: 100vh;
     top: 0;
 }
+
+section div.col-right{
+    margin-bottom: 40%;
+}
+
+/* Name Section */
 
 section.name-section{
     margin-top: 15%;
     
 }
-
-section div.name-container{
-    border-style: none;
+#about{
+    color: var(--text-color);
 }
+#contact{
+    color: var(--text-color);
+}
+
+/* WEB Section style */
 
 .title-header{
-    border-bottom: 0.5rem solid #D7DBFF;
+    text-align: center;
+}
+.th-description{
+    text-align: justify;
+    padding: 20px;
+    background-color: #D7DBFF;
+}
+.description{
+    text-align: justify;
+    padding-top: 20px;
+}
+div.webpage-col{
+    margin-top: 12%;
 }
 
-div.img-container{
+/* Tools Section style */
+
+div.col-left-subheader{
+    text-align: left;
+    margin-top: 40px;
+}
+section div.col-right-tools{
+    margin-bottom: 40%;
+}
+div.main-img-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 8%;
@@ -129,31 +131,21 @@ div.img-container{
     margin-top: 8%;
     padding-top: 8%;
 }
-
+div.img-container {
+    margin: 40px 0;
+}
+img.download_icon{
+    margin-top: 5%;
+    width: 50%;
+}
 .logo-img{
     width: 100%;
-}
-
-.description{
-    text-align: justify;
-    padding-top: 10px;
-}
-
-section div.col-right{
-    margin-top: 40%;
-}
-
-section div.col-right-tools{
-    margin-top: 10%;
-}
-
-img.download_icon{
-    width: 50%;
 }
 
 /* Media Query */
 
 @media (max-width: 800px) {
+    
     h4{
         margin-top: 2%;
     }
@@ -169,12 +161,12 @@ img.download_icon{
         text-align: left; 
     }
 
-    section div.img-container{
+    section div.main-img-container{
         grid-template-columns: 1fr;
     }
 
     .subtitle-header{
-        margin-top: 18%;
+        margin-top: 8%;
     }
 
     .logo-img{
@@ -183,10 +175,15 @@ img.download_icon{
 
     section div.col-right{
         margin-top: 0;
+        margin-bottom:0;
     }
 
     img.download_icon{
         width: 30%;
+    }
+
+    div.col-left-subheader {
+        margin-top: 0;
     }
 
     section.footer-container{
