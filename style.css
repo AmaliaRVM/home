@@ -80,7 +80,7 @@ section div.col-left{
 }
 
 section div.footer-container{
-    height: 75vh;
+    height: 80vh;
 }
 
 section div.col-right{
@@ -114,8 +114,7 @@ section.name-section{
     padding: 20px;
     background-color: #D7DBFF;
 }
-.description{
-    text-align: justify;
+.logo-name{
     padding-top: 20px;
 }
 div.webpage-col{
@@ -131,25 +130,34 @@ div.col-left-subheader{
 section div.col-right-tools{
     margin-bottom: 40%;
 }
-div.main-img-container{
+
+/* div.main-img-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 8%;
 
     margin-top: 8%;
     padding-top: 8%;
-}
-div.img-container {
-    margin: 40px 0;
-}
-img.download_icon{
-    margin-top: 5%;
-    width: 50%;
-}
-.logo-img{
-    width: 100%;
+} */
+
+div.main-img-container{
+    text-align: center;
+    margin-top: 20%;
 }
 
+
+div.img-container {
+    margin: 60px 0;
+}
+
+img.download_icon{
+    margin-top: 5%;
+}
+
+/* .logo-img{
+    width: 100%;
+}
+ */
 /* Media Query */
 
 @media (max-width: 800px) {

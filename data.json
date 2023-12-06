@@ -1,3 +1,99 @@
 {
+    "section_one": 
+        {
+
+            "name":"Amalia",
+            "surname":"Rodríguez",
+            "about_header": "about",
+            "about_description":" After working for several years as a performer, curiosity in digital arts dragged me into technologies. I create websites that meet the needs and desires of each customer. Together we go through both, the technical side and  the design, streamline the structure and make sure the information comes across as desired.",
+            "mail":"amaliarvm@gmail.com",
+            "phone":"0032(0)467656808"
+        },
     
+    "section_two":
+        {
+            "header": "Web Projects",
+            "description": "These are some examples of web projects that I developed in collaboration with the clients. Due to the nature of some of them, it is possible that the page is no longer hosted. In that case you can check the source code at my github account or send me an email.",
+            "websites": [
+                {
+                    "title": "Reuse-it",
+                    "web_description": "A webpage crafted for the Reuse-it project in collaboration  with the artist Ersel Musmul, Open Design Course, the Design Museum of Ghent and The Collectie Van de Gentenaar.",
+                    "hashtag": "#html, #css, #js, #bootstrap, #contentful"
+                },
+                {
+                    "title": "Hum",
+                    "web_description": "A webpage archive for the “Ethiek+esthetiek van een open server” research in collaboration with Peter Westenberg.",
+                    "hashtag": "#html, #css, #js, #bootstrap"
+                },
+                {
+                    "title": "Julia Rodríguez",
+                    "web_description": "A webpage crafted for the Reuse-it project in collaboration  with the artist Ersel Musmul, Open Design Course, the Design Museum of Ghent and The Collectie Van de Gentenaar.",
+                    "hashtag": "#html, #css, #js"
+                },
+                {
+                    "title": "Juan Domínguez",
+                    "web_description": "Maintenance of the website of Juan Dominguez, choreographer.",
+                    "hashtag": "#wordpress"
+                },
+                {
+                    "title": "CiaDeliri",
+                    "web_description": "Static web page for a theater company based in Barcelona.",
+                    "hashtag": "#wordpress"
+                },
+                {
+                    "title": "Connected.Dots",
+                    "web_description": "E-commerce for a design collective based in Belgium.",
+                    "hashtag": "#custom e-commerce #Shopify theme development #liquid"
+                }
+            ]
+        },
+
+    "section_three":
+        {
+            "header":"Tools & +",
+            "icon_header":"Icon",
+            "icon_description": "While working on a web project I sometimes need a specific icon that aligns to the design. I ended up designing a few of them. The following icons are CC By, meaning that you are free to download them and use them for no commercial purposes. Just remember to credit  within the “alt” attribute or somewhere in the code. ",
+            "logo_header": "Logo",
+            "logo_description": "Thinking about the visual identity along with the client is something I’m starting to explore. The following logos were created for an ONG based in Gent called Open Design Course and the second one was my contribution for a competition to design a logo  for a German cloth brand for children.",
+            "icons": [
+                {
+                    "img": "./assets/img/corazon.svg",
+                    "download": "./assets/img/downloadIcon.svg"
+                },
+                {
+                    "img": "./assets/img/cc-by(1).svg",
+                    "download": "./assets/img/downloadIcon.svg"
+                },
+                {
+                    "img": "./assets/img/facebook-icon(1).svg",
+                    "download": "./assets/img/downloadIcon.svg"
+                },
+                {
+                    "img": "./assets/img/instagram-icon(1).svg",
+                    "download": "./assets/img/downloadIcon.svg"
+                },
+                {
+                    "img": "./assets/img/scrollUp(1).svg",
+                    "download": "./assets/img/downloadIcon.svg"
+                },
+                {
+                    "img": "./assets/img/you_are_here.svg",
+                    "download": "./assets/img/downloadIcon.svg"
+                }
+            ],
+
+            "logos": [
+                {
+                    "img": "./assets/img/ODC_finalLogo.svg",
+                    "logo_name": "Open Design Course"
+                },
+                {
+                    "img": "./assets/img/zwergenwald.svg",
+                    "logo_name": "German cloth brand for children"
+                } 
+            ]
+                
+        }
+
 }
+
