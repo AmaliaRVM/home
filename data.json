@@ -18,32 +18,39 @@
                 {
                     "title": "Reuse-it",
                     "web_description": "A webpage crafted for the Reuse-it project in collaboration  with the artist Ersel Musmul, Open Design Course, the Design Museum of Ghent and The Collectie Van de Gentenaar.",
-                    "hashtag": "#html, #css, #js, #bootstrap, #contentful"
+                    "hashtag": "#html, #css, #js, #bootstrap, #contentful",
+                    "link":"https://reuse-it.github.io/home/"
                 },
                 {
                     "title": "Hum",
                     "web_description": "A webpage archive for the “Ethiek+esthetiek van een open server” research in collaboration with Peter Westenberg.",
-                    "hashtag": "#html, #css, #js, #bootstrap"
+                    "hashtag": "#html, #css, #js, #bootstrap",
+                    "link":"http://213.108.105.149/"
+
                 },
                 {
                     "title": "Julia Rodríguez",
                     "web_description": "A webpage crafted for the Reuse-it project in collaboration  with the artist Ersel Musmul, Open Design Course, the Design Museum of Ghent and The Collectie Van de Gentenaar.",
-                    "hashtag": "#html, #css, #js"
+                    "hashtag": "#html, #css, #js",
+                    "link":"https://juliarodriguez.mx/"
                 },
                 {
                     "title": "Juan Domínguez",
                     "web_description": "Maintenance of the website of Juan Dominguez, choreographer.",
-                    "hashtag": "#wordpress"
+                    "hashtag": "#wordpress",
+                    "link":"http://juandominguezrojo.com/"
                 },
                 {
                     "title": "CiaDeliri",
                     "web_description": "Static web page for a theater company based in Barcelona.",
-                    "hashtag": "#wordpress"
+                    "hashtag": "#wordpress",
+                    "link":"http://ciadeliri.com/"
                 },
                 {
                     "title": "Connected.Dots",
                     "web_description": "E-commerce for a design collective based in Belgium.",
-                    "hashtag": "#custom e-commerce #Shopify theme development #liquid"
+                    "hashtag": "#custom e-commerce #Shopify theme development #liquid",
+                    "link":"https://www.connecteddots.be/"
                 }
             ]
         },

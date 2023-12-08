@@ -38,7 +38,7 @@ const getData = function (){
             console.log(element.title);
             divWebRight.innerHTML = divWebRight.innerHTML + `
             <div>
-                <h4 class="subtitle-header"><a href="https://reuse-it.github.io/home/" target="_blank">${element.title}</a></h4>
+                <h4 class="subtitle-header"><a href="${element.link}" target="_blank">${element.title}</a></h4>
                 <p class="description">${element.web_description}</p>
                 <p>${element.hashtag}</p>
             </div>     

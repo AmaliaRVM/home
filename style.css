@@ -84,6 +84,7 @@ section div.footer-container{
 }
 
 section div.col-right{
+    margin-top: 20%;
     margin-bottom: 40%;
 }
 
@@ -108,7 +109,9 @@ section.name-section{
 
 .title-header{
     text-align: center;
+    padding-top: 15%;
 }
+
 .th-description{
     text-align: justify;
     padding: 20px;
@@ -128,6 +131,7 @@ div.col-left-subheader{
     margin-top: 40px;
 }
 section div.col-right-tools{
+    margin-top:15%;
     margin-bottom: 40%;
 }
 
