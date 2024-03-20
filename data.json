@@ -30,7 +30,7 @@
                 },
                 {
                     "title": "Julia Rodríguez",
-                    "web_description": "A webpage crafted for the Reuse-it project in collaboration  with the artist Ersel Musmul, Open Design Course, the Design Museum of Ghent and The Collectie Van de Gentenaar.",
+                    "web_description": "Personal website for artist and choreographer Julia Rodríguez",
                     "hashtag": "#html, #css, #js",
                     "link":"https://juliarodriguez.mx/"
                 },
@@ -41,16 +41,22 @@
                     "link":"http://juandominguezrojo.com/"
                 },
                 {
-                    "title": "CiaDeliri",
-                    "web_description": "Static web page for a theater company based in Barcelona.",
+                    "title": "Partners In Craft",
+                    "web_description": "Archive webpage for the partners in craft project.",
                     "hashtag": "#wordpress",
-                    "link":"http://ciadeliri.com/"
+                    "link":"https://www.partnersincraft.online/"
                 },
                 {
                     "title": "Connected.Dots",
                     "web_description": "E-commerce for a design collective based in Belgium.",
                     "hashtag": "#custom e-commerce #Shopify theme development #liquid",
                     "link":"https://www.connecteddots.be/"
+                },
+                {
+                    "title": "CiaDeliri",
+                    "web_description": "Static web page for a theater company based in Barcelona.",
+                    "hashtag": "#wordpress",
+                    "link":"http://ciadeliri.com/"
                 }
             ]
         },
